@@ -1,0 +1,70 @@
+body {
+  background: url(../images/crystals.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  background: #8a6d3b;
+  width: 600px;
+  font-size: 16px;
+  padding: 10px;
+  color: beige;
+}
+.main h1 {
+  text-align: center;
+}
+.instructions  {
+  padding: 10px 10px 30px;
+}
+.crystals{
+  width: 150px;
+  display: inline-block;
+  cursor: pointer;
+  background: #fff;
+}
+
+img#sappire, img#amber, img#ruby, img#emerald {
+    width: 120px;
+}
+
+.numberToMatch{
+  margin-top: 20px;
+  width: 250px;
+  float:left;
+  background: #3c763d;;
+  height: 100px;
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  padding-top: 27px;
+}
+.winsAndLosses {
+  margin-top: 20px;
+  width: 150px;
+  height: 100px;
+  float:left;
+  text-align: center;
+  background: #7aa768;
+  margin-left: 10px;
+  color: #fff;
+}
+.total h2{
+  color: #fff;
+  background: #13ab92;
+  width: 300px;
+  padding: 5px;
+}
+#totalScore {
+    width: 300px;
+    height: 100px;
+    background: #13ab92;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.stones {
+    clear: both;
+    padding-top: 20px;
+}
